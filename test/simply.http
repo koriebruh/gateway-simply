@@ -1,0 +1,7 @@
+### GET request to example server
+GET http://localhost:8080/orders/
+Content-Type: application/json
+
+###
+GET http://localhost:8080/products/
+Content-Type: application/json
