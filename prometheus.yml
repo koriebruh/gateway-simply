@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s  # Setiap berapa detik Prometheus mengambil data
+
+scrape_configs:
+  - job_name: 'golang-application'
+    static_configs:
+      - targets: ['host.docker.internal:8080']  # Ganti dengan IP aplikasi Golang-mu
